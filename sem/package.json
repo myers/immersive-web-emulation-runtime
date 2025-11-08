@@ -26,11 +26,11 @@
 	},
 	"homepage": "https://github.com/meta-quest/immersive-web-emulation-runtime#readme",
 	"dependencies": {
-		"three": "^0.165.0",
 		"ts-proto": "^2.6.0"
 	},
 	"peerDependencies": {
-		"iwer": "^2.0.0"
+		"iwer": "^2.0.0",
+		"three": ">=0.165.0"
 	},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^28.0.1",
@@ -41,6 +41,7 @@
 		"@types/three": "^0.170.0",
 		"rollup": "^4.24.3",
 		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"three": "^0.165.0",
 		"typescript": "^5.6.3"
 	}
 }
